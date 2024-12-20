@@ -1,0 +1,73 @@
+/* Cambiar el fondo de la página a azul */
+body {
+    background-color: #007bff; /* Azul */
+    color: white; /* Color del texto en blanco */
+    font-family: Arial, sans-serif; /* Fuente general */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centrando los títulos (h1, h2, h3, etc.) */
+h1, h2, h3 {
+    text-align: center; /* Centrar el texto */
+    color: white; /* Color blanco para los títulos */
+}
+
+/* Personalización adicional para subtítulos */
+h2, h3 {
+    font-weight: bold; /* Poner subtítulos en negrita */
+}
+
+/* Estilo general para los párrafos */
+p {
+    text-align: justify; /* Justificar los párrafos */
+    line-height: 1.6; /* Mejor legibilidad */
+}
+
+/* Caja de preguntas */
+.question-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.question-box h3 {
+    margin-bottom: 10px;
+}
+
+.question-box textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.question-box button {
+    background-color: #1f048c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.question-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el footer */
+footer {
+    margin-top: auto; /* Empuja el footer al final */
+    text-align: center; /* Centrar el texto */
+    padding: 10px;
+    background-color: #003366; /* Un color oscuro para el footer */
+    color: white;
+}
